@@ -25,3 +25,6 @@ We have considered three usecases to demonstrate Tokenization using ERC-721 and 
 <img src="https://github.com/Anikketsingh/syndicate/blob/main/syndicate%20/Tokenization-main/UI/images/land-usecase.png" width="400" align="center">
 </p> 
 
+<p>1) clone the repository 
+2)install all the dependencies 
+3)open index.html in local host</p>
