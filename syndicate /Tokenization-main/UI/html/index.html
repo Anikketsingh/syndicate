@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    
+ 
+  </head>
+  <body>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 1280px;
+    height: 832px;
+    margin: auto; /* Center the box horizontally */
+    position: relative;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('MacBook Air - 1.png') center/cover fixed no-repeat; /* Set background image for html/body and make it cover the whole page */
+}
+
+  
+  .box .mask-group {
+    position: fixed;
+    width: 1280px;
+    height: 832px;
+  
+  }
+  .box .overlap {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the overlap content vertically */
+}
+  
+  .box .macbook-air {
+  
+  
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-image: url(MacBook\ Air\ -\ 1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .box .rectangle {
+    position: absolute;
+    width: 242px;
+    height: 39px;
+    top: 26px;
+    left: 800px;
+    background-color: #1e1e1eb2;
+    border-radius: 50px;
+  }
+  
+  .box .screenshot {
+    position: absolute;
+    width: 75px;
+    height: 43px;
+    top: 26px;
+    left: 34px;
+    object-fit: cover;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #38c769;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-group {
+    position: absolute;
+    width: 545px;
+    height: 327px;
+    top: 131px;
+    left: 71px;
+    background-color: #1e1e1eb2;
+    border-radius: 50px;
+  }
+  
+  .box .div {
+    position: absolute;
+    width: 426px;
+    top: 102px;
+    left: 24px;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24.5px;
+  }
+  
+  .box .p {
+    position: absolute;
+    top: 61px;
+    left: 24px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+
+  
+  .box .div-wrapper {
+    position: absolute;
+    width: 1136px;
+    height: 167px;
+    top: 531px;
+    left: 71px;
+    background-color: #38c769d9;
+    border-radius: 50px;
+  }
+  
+  .box .text-wrapper-2 {
+    position: absolute;
+    top: 70px;
+    left: 213px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: 24.5px;
+    white-space: nowrap;
+  }
+  
+  .box .img {
+    position: absolute;
+    width: 480px;
+    height: 270px;
+    top: 159px;
+    left: 681px;
+    object-fit: cover;
+  }
+  
+  .box .right-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 26.34px;
+    position: absolute;
+    top: 27px;
+    left: 812px;
+  }
+  
+  .box .header-menu {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 29px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .box .menu {
+    display: flex;
+    width: 55px;
+    align-items: center;
+    gap: 6.58px;
+    position: relative;
+  }
+  
+  .box .why-justgo {
+    width: 83.95px;
+    margin-right: -28.95px;
+    text-align: center;
+    position: relative;
+    margin-top: -0.82px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #38c769;
+    font-size: 13.2px;
+    letter-spacing: 0;
+    line-height: 19.8px;
+  }
+  
+  .box .menu-2 {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 6.58px;
+    position: relative;
+  }
+  
+  .box .why-justgo-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.82px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #38c769;
+    font-size: 13.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.8px;
+    white-space: nowrap;
+  }
+  
+  .box .menu-3 {
+    display: flex;
+    width: 16px;
+    align-items: center;
+    gap: 6.58px;
+    position: relative;
+  }
+  
+  .box .why-justgo-3 {
+    width: fit-content;
+    margin-right: -23px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -0.82px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #38c769;
+    font-size: 13.2px;
+    letter-spacing: 0;
+    line-height: 19.8px;
+  }
+  
+  .box .menu-4 {
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-right: -1px;
+    align-items: center;
+    gap: 6.58px;
+    position: relative;
+  }
+  
+  .box .why-justgo-4 {
+    width: fit-content;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -0.82px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #38c769;
+    font-size: 13.2px;
+    letter-spacing: 0;
+    line-height: 19.8px;
+  }
+  
+  .box .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.58px;
+    padding: 11.52px 26.34px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #4caf4f;
+    border-radius: 3.29px;
+  }
+  
+  .box .label {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.82px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.8px;
+    white-space: nowrap;
+  }
+  
+  .box .element-arrows-directions {
+    position: relative;
+    width: 13.17px;
+    height: 13.17px;
+  }
+  a{
+    text-decoration: none;
+  }
+    </style>
+   
+    <div class="box">
+      <div class="mask-group">
+        <div class="overlap">
+          <div class="macbook-air">
+            <div class="rectangle"></div>
+            <a href="index.html"><img class="screenshot" src="Screenshot 2024-01-24 at 1.43 1.png" />
+            <div class="text-wrapper">SYNDICATE</div></a>
+            <div class="overlap-group">
+              <p class="div">
+                Real World Assets (RWA) in crypto refers to the tokenization of tangible assets that exist in the
+                physical world, that are brought on chain. They also include the growing issuance of capital market
+                products on-chain, where digital securities are tokenized and offered to retail customers.
+              </p>
+              <p class="p">What are Real World Assets (RWA) in Crypto?</p>
+            </div>
+          <a href="token.html"> <div class="div-wrapper"><p class="text-wrapper-2">CONVERT YOUR ASSET INTO TOKENS</p></div></a> 
+            <!-- Video added to the div with class img1 -->
+            <video class="img" width="100%" height="auto" autoplay muted loop >
+              <source src="Untitled Project (1).mp4" type="video/mp4">
+              
+            </video>
+          </div>
+          <div class="right-menu">
+            <div class="header-menu">
+              <div class="menu"><a href="index.html" class="why-justgo">Home</a></div>
+              <div class="menu-2"><a href="token.html"><div class="why-justgo-2">Account</div></a></div>
+            
+              <div class="menu-2"><div class="why-justgo-2"></div></div>
+              <div class="menu-4"><div class="why-justgo-4"></div></div>
+            </div>
+            <button class="button">
+             <a href="token.html"><div class="label">TOKENISE</div></a> 
+              <img class="element-arrows-directions" src="Down.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
